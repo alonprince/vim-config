@@ -6,13 +6,11 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 "My bundles here:
 Bundle 'altercation/vim-colors-solarized'
-Plugin 'WinManager'
-Plugin 'Vim-airline'
 Plugin 'tagbar'
-Plugin 'vim-multiple-cursors'
 Plugin 'nerdtree'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'ctrlp.vim'
+Plugin 'Xuyuanp/nerdtree-git-plugin'
 
 syntax enable
 filetype plugin indent on
@@ -81,8 +79,6 @@ map <C-F2> :NERDTreeFind<CR>
 let NERDTreeChDirMode=2  
 let NERDTreeShowBookmarks=1
 let NERDTreeDirArrows=1 
-
-autocmd vimenter * Tagbar
 
 "Text search and replace
 set showmatch
