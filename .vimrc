@@ -11,6 +11,7 @@ Plugin 'nerdtree'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'ctrlp.vim'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
+Plugin 'vim-scripts/winmanager'
 
 syntax enable
 filetype plugin indent on
